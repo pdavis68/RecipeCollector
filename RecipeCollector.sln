@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.28307.102
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecipeCollector", "RecipeCollector\RecipeCollector.csproj", "{16AA2E45-A936-45AD-96BF-6D97A9C480FB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecipeCollector.Common", "RecipeCollector.Common\RecipeCollector.Common.csproj", "{6022FE36-4486-4B0E-AA45-16FDA96BAF76}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CooksDotComCollector", "Addins\CooksDotComCollector\CooksDotComCollector.csproj", "{A73F1B5E-844C-4B00-B4F4-7EDA6182748E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{16AA2E45-A936-45AD-96BF-6D97A9C480FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{16AA2E45-A936-45AD-96BF-6D97A9C480FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{16AA2E45-A936-45AD-96BF-6D97A9C480FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6022FE36-4486-4B0E-AA45-16FDA96BAF76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6022FE36-4486-4B0E-AA45-16FDA96BAF76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6022FE36-4486-4B0E-AA45-16FDA96BAF76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6022FE36-4486-4B0E-AA45-16FDA96BAF76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A73F1B5E-844C-4B00-B4F4-7EDA6182748E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A73F1B5E-844C-4B00-B4F4-7EDA6182748E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A73F1B5E-844C-4B00-B4F4-7EDA6182748E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A73F1B5E-844C-4B00-B4F4-7EDA6182748E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
